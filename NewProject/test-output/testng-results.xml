@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28404" started-at="2019-10-18T08:48:52Z" finished-at="2019-10-18T08:49:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28404" started-at="2019-10-18T08:48:52Z" finished-at="2019-10-18T08:49:20Z">
+      <class name="TestngFiles.LoginVerification">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:TestngFiles.LoginVerification@1753acfe]" name="OpenBrowser" is-config="true" duration-ms="8514" started-at="2019-10-18T08:48:52Z" finished-at="2019-10-18T08:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="LoginPage()[pri:1, instance:TestngFiles.LoginVerification@1753acfe]" name="LoginPage" duration-ms="9" started-at="2019-10-18T08:49:00Z" finished-at="2019-10-18T08:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method status="PASS" signature="VerifyLogin()[pri:2, instance:TestngFiles.LoginVerification@1753acfe]" name="VerifyLogin" duration-ms="2389" started-at="2019-10-18T08:49:00Z" finished-at="2019-10-18T08:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="FAIL" signature="VerifyMenu1()[pri:3, instance:TestngFiles.LoginVerification@1753acfe]" name="VerifyMenu1" duration-ms="6480" started-at="2019-10-18T08:49:03Z" finished-at="2019-10-18T08:49:09Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Employment Status] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Employment Status] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at TestngFiles.SubMenuVerification.AdminSubMenu2(SubMenuVerification.java:60)
+at TestngFiles.HomePageValidation.Admin(HomePageValidation.java:45)
+at TestngFiles.LoginVerification.VerifyMenu1(LoginVerification.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMenu1 -->
+        <test-method status="PASS" signature="VerifyMenu2()[pri:4, instance:TestngFiles.LoginVerification@1753acfe]" name="VerifyMenu2" duration-ms="1921" started-at="2019-10-18T08:49:09Z" finished-at="2019-10-18T08:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMenu2 -->
+        <test-method status="PASS" signature="VerifyMenu3()[pri:5, instance:TestngFiles.LoginVerification@1753acfe]" name="VerifyMenu3" duration-ms="2644" started-at="2019-10-18T08:49:11Z" finished-at="2019-10-18T08:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMenu3 -->
+        <test-method status="PASS" signature="VerifyMenu4()[pri:6, instance:TestngFiles.LoginVerification@1753acfe]" name="VerifyMenu4" duration-ms="1212" started-at="2019-10-18T08:49:14Z" finished-at="2019-10-18T08:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMenu4 -->
+        <test-method status="PASS" signature="VerifyMenu5()[pri:7, instance:TestngFiles.LoginVerification@1753acfe]" name="VerifyMenu5" duration-ms="1301" started-at="2019-10-18T08:49:15Z" finished-at="2019-10-18T08:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMenu5 -->
+        <test-method status="PASS" signature="VerifyMenu6()[pri:8, instance:TestngFiles.LoginVerification@1753acfe]" name="VerifyMenu6" duration-ms="3044" started-at="2019-10-18T08:49:16Z" finished-at="2019-10-18T08:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMenu6 -->
+        <test-method status="PASS" signature="VerifyMenu7()[pri:9, instance:TestngFiles.LoginVerification@1753acfe]" name="VerifyMenu7" duration-ms="796" started-at="2019-10-18T08:49:19Z" finished-at="2019-10-18T08:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMenu7 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestngFiles.LoginVerification@1753acfe]" name="CloseBrowser" is-config="true" duration-ms="74" started-at="2019-10-18T08:49:20Z" finished-at="2019-10-18T08:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestngFiles.LoginVerification -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
